@@ -1,0 +1,107 @@
+.center-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2d1b69 0%, #5b21b6 50%, #4c1d95 100%);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+}
+
+.book-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2d1b69 0%, #5b21b6 50%, #4c1d95 100%);
+  position: relative;
+  padding: 40px 20px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.book-card {
+  width: 260px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 
+    0 10px 30px rgba(212, 175, 55, 0.2),
+    0 5px 15px rgba(91, 33, 182, 0.3);
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  margin: 0;
+
+  img {
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+  }
+
+  &:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 
+      0 20px 40px rgba(212, 175, 55, 0.4),
+      0 10px 25px rgba(91, 33, 182, 0.5),
+      0 0 30px rgba(212, 175, 55, 0.2);
+    border-color: rgba(212, 175, 55, 0.6);
+  }
+}
+
+.book-title {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 19px;
+  max-width: 280px;
+  color: #d4af37;
+  text-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(212, 175, 55, 0.3);
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+ion-spinner {
+  --color: #d4af37;
+  transform: scale(1.3);
+}
