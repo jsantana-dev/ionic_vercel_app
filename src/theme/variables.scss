@@ -1,0 +1,77 @@
+// For information on how to create your own theme, please refer to:
+// https://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables - Harry Potter Theme **/
+:root {
+  /** primary (roxo profundo mágico) **/
+  --ion-color-primary: #5b21b6;
+  --ion-color-primary-rgb: 91, 33, 182;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #501da0;
+  --ion-color-primary-tint: #6b37bd;
+
+  /** secondary (dourado elegante) **/
+  --ion-color-secondary: #d4af37;
+  --ion-color-secondary-rgb: 212, 175, 55;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #bb9a30;
+  --ion-color-secondary-tint: #d8b74b;
+
+  /** tertiary (roxo médio) **/
+  --ion-color-tertiary: #7c3aed;
+  --ion-color-tertiary-rgb: 124, 58, 237;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #6d33d1;
+  --ion-color-tertiary-tint: #8950ef;
+
+  /** success (verde mágico) **/
+  --ion-color-success: #059669;
+  --ion-color-success-rgb: 5, 150, 105;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #04845c;
+  --ion-color-success-tint: #1ea178;
+
+  /** warning (âmbar/dourado) **/
+  --ion-color-warning: #f59e0b;
+  --ion-color-warning-rgb: 245, 158, 11;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d88b0a;
+  --ion-color-warning-tint: #f6a823;
+
+  /** danger **/
+  --ion-color-danger: #dc2626;
+  --ion-color-danger-rgb: 220, 38, 38;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #c22121;
+  --ion-color-danger-tint: #e03c3c;
+
+  /** dark (roxo muito escuro) **/
+  --ion-color-dark: #2d1b69;
+  --ion-color-dark-rgb: 45, 27, 105;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #28185c;
+  --ion-color-dark-tint: #423278;
+
+  /** medium **/
+  --ion-color-medium: #9333ea;
+  --ion-color-medium-rgb: 147, 51, 234;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #812dce;
+  --ion-color-medium-tint: #9e47ec;
+
+  /** light (lavanda claro) **/
+  --ion-color-light: #f3f4f6;
+  --ion-color-light-rgb: 243, 244, 246;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d6d7d8;
+  --ion-color-light-tint: #f4f5f7;
+}
