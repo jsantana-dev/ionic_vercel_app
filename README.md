@@ -176,7 +176,7 @@ O projeto utiliza **localStorage** do navegador para persistir os livros favorit
 
 O projeto está configurado para deploy automático no Vercel através do arquivo `vercel.json`.
 
-**Link da aplicação**: [Adicione aqui o link do seu Vercel]
+**Link da aplicação**: [(https://vercel.com/jamylle-santanas-projects/ionic-vercel-app)]
 
 ### Como fazer deploy:
 
