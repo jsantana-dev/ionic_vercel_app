@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm install && npm run build -- --configuration production",
+  "outputDirectory": "www",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
