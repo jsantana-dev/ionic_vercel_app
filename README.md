@@ -155,15 +155,15 @@ Os arquivos compilados estarão na pasta `www/`.
 ## 📱 Screenshots
 
 ### Tela Inicial - Home
-![Tela Home](./screenshots/home.png)
+![Tela Home](src/assets/screenshots/home.png)
 *Página inicial exibindo um livro aleatório de Harry Potter com design mágico*
 
 ### Tela de Detalhes
-![Tela Detalhes](./screenshots/details.png)
+![Tela Detalhes](src/assets/screenshots/details.png)
 *Detalhes completos do livro com opções de favoritar e voltar*
 
 ### Tela de Favoritos
-![Tela Favoritos](./screenshots/favorites.png)
+![Tela Favoritos](src/assets/screenshots/favorites.png)
 *Lista de livros favoritos salvos localmente com opção de remover*
 
 ## 📦 Persistência de Dados
